@@ -1,44 +1,29 @@
 ---
 
-# Rock, Paper, Scissors Game Module
+# Rock, Paper, Scissors Game
 
-## Description
+This module allows a user to play Rock, Paper, Scissors against a "learning" computer opponent. The computer's strategy revolves around targeting the player's most defeated move, with a slight random twist to introduce unpredictability.
 
-This game module allows users to play the classic game of Rock, Paper, Scissors against a "learning" computer opponent. Rather than making purely random choices, the computer opponent employs a strategy: it frequently targets the player's most commonly defeated move, while occasionally adding in an element of randomness for unpredictability.
+## Instructions
 
-## Features
+1. Start the game by running the Python script.
+2. Follow the on-screen instructions:
+    - Press 'R' for Rock.
+    - Press 'P' for Paper.
+    - Press 'S' for Scissors.
+    - Press 'Q' to Quit.
 
-- **Dynamic Gameplay**: Experience a computer opponent that evolves its strategy based on player patterns.
-- **Visual Feedback**: ASCII art representations for Rock, Paper, and Scissors to make the gameplay more engaging.
-- **Interactive**: Colorful terminal outputs with the integration of the `colorama` module for better user experience.
+## Game Features
+
+- **Dynamic Computer Opponent**: The computer opponent tries to "learn" from your previous moves, predicting what you might play next based on your most frequently defeated move.
   
+- **Colorful Terminal Output**: Thanks to the `colorama` package, the game has a colorful terminal output that enhances the user experience.
+
+- **ASCII Art Representation**: Each move (rock, paper, or scissors) is visually represented with ASCII art, making the game more immersive.
+
 ## Requirements
 
 - Python 3.x
-- colorama: `pip install colorama`
-
-## Usage
-
-1. Clone the repository or download the Python script.
-2. Navigate to the directory containing the script.
-3. Run the script using:
-
-```bash
-python rock_paper_scissors.py
-```
-
-4. Follow the on-screen prompts to play against the computer.
-
-## Gameplay
-
-Press:
-- 'R' for Rock
-- 'P' for Paper
-- 'S' for Scissors
-- 'Q' to quit
-
-## License
-
-None :)
+- `colorama` package. Install it using `pip install colorama`
 
 ---
