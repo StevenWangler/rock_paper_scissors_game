@@ -5,6 +5,8 @@ This module allows a user to play Rock, Paper, Scissors against a "learning" com
 The computer's strategy revolves around targeting the player's most defeated move, with a slight 
 random twist to 
 introduce unpredictability.
+
+Developer: Steven Wangler
 """
 
 import time
